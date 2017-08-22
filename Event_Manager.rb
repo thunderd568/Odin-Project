@@ -1,4 +1,4 @@
-class Event_Manager
+
   require 'csv'
   require 'sunlight/congress'
   require 'erb'
@@ -40,4 +40,3 @@ class Event_Manager
   
     save_thank_you_letters(id,form_letter)
   end
-end
